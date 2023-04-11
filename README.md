@@ -50,11 +50,11 @@ Create a map that displays a point for every city in the ```city_data_df``` Data
 
 Narrow down the ```city_data_df``` DataFrame to find your ideal weather condition. For example:
 
-A max temperature lower than 27 degrees but higher than 21
+- A max temperature lower than 27 degrees but higher than 21
 
-Wind speed less than 4.5 m/s
+- Wind speed less than 4.5 m/s
 
-Zero cloudiness
+- Zero cloudiness
 
 Create a new DataFrame called ```hotel_df``` to store the city, country, coordinates, and humidity.
 
