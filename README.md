@@ -21,7 +21,9 @@ Use the OpenWeatherMap API to retrieve weather data from the cities list. Next, 
 #### Requirement 2: Compute Linear Regression for Each Relationship
 Compute the linear regression for each relationship. Separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude).
 
-Next, create a series of scatter plot showing the relationship between the variable pairs below:
+Next, create a series of scatter plots (like the following image) showing the relationship between the variable pairs below:
+
+![Python API example](https://user-images.githubusercontent.com/111451303/231047229-b22e5371-82f3-4a2a-bce2-999c82ce0475.png)
 
 - Northern Hemisphere: Temperature vs. Latitude
 
@@ -49,7 +51,9 @@ Create a map that displays a point for every city in the ```city_data_df``` Data
 Narrow down the ```city_data_df``` DataFrame to find your ideal weather condition. For example:
 
 A max temperature lower than 27 degrees but higher than 21
+
 Wind speed less than 4.5 m/s
+
 Zero cloudiness
 
 Create a new DataFrame called ```hotel_df``` to store the city, country, coordinates, and humidity.
